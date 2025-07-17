@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./logo.svg" width="100" alt="Proofly Logo" />
+  <img src="./public/logo.svg" width="100" alt="Proofly Logo" />
 </p>
 
 <h1 align="center">Proofly</h1>
