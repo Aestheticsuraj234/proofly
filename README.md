@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="./logo.svg" width="100" alt="Proofly Logo" />
+</p>
 
-## Getting Started
+<h1 align="center">Proofly</h1>
+<p align="center"><strong>One link. Every proof. Your work — unified.</strong></p>
 
-First, run the development server:
+<p align="center">
+  ✨ Proof-of-work portfolio generator for developers, freelancers, and indie hackers.<br/>
+  🧠 Connect your GitHub, YouTube, X, LinkedIn — and let AI craft your dynamic portfolio & resume.<br/>
+  🚀 Built in public. Open source. Developer-first.
+</p>
+
+---
+
+## 🔥 What is Proofly?
+
+**Proofly** is an AI-powered portfolio + resume generator that *automatically* builds a live, unified identity based on your public work across platforms.
+
+> No more scattered links, outdated resumes, or boring portfolios.
+
+---
+
+## 💡 Why Proofly?
+
+Modern creators have proofs of work everywhere:
+- GitHub repos
+- YouTube tutorials
+- Blog articles
+- Tweets
+- Side-projects
+- Freelance client feedback
+
+**But there's no single link that shows it all — until now.**
+
+---
+
+## 🧠 Key Features
+
+- 🔗 **Single Link Portfolio:** Share one URL — auto-updated with your best work.
+- 🤖 **AI-Generated Resume:** Auto-creates a clean, developer-centric resume.
+- 📦 **GitHub Integration:** Show off top repos, commits, stars, PRs.
+- 🎥 **YouTube + Blog Content:** Embed latest videos/articles automatically.
+- 🧵 **X (Twitter) Feed:** Highlight relevant tweets or threads.
+- 🧠 **Skill Graph (Coming Soon):** A visual graph of your tech proficiency and growth.
+- 🛠️ **Open Source Friendly:** Fork it, self-host it, or contribute.
+- 💼 **Client Testimonials / Proofs:** Let your clients or collaborators add proof nodes.
+
+---
+
+## 📐 Ideal For
+
+- 🧑‍💻 Developers & Engineers  
+- 🎯 Freelancers & Indie Hackers  
+- 🛠️ Open-source Contributors  
+- 📚 Content Creators  
+- 🔥 Bootcamp Graduates  
+
+---
+
+## 📦 Tech Stack
+
+- **Frontend:** Next.js 15, TailwindCSS, Shadcn UI  
+- **Backend:** Node.js, Prisma, PostgreSQL  
+- **AI Layer:** Embedding + AI resume summarization (LangChain + Ollama)  
+- **Integrations:** GitHub, YouTube, X (Twitter), Blogs, LinkedIn  
+
+---
+
+## 🚀 Getting Started
+
+> 💡 Full installation guide coming soon after MVP.
 
 ```bash
+git clone https://github.com/your-username/proofly.git
+cd proofly
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
